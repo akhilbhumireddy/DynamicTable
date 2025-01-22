@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Dynamic Table Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
 
-## Available Scripts
+To assess your ability to build a simple, functional, and visually appealing table using React. This assignment evaluates your understanding of React components, state management, and basic styling.
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- **Frontend**: React
+- **Styling**: CSS (Plain CSS, CSS Modules, TailwindCSS, or Bootstrap)
+- **Deployment**: Netlify
+- **Version Control**: GitHub
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Completion Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Functionality
 
-### `npm test`
+#### Must Have
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. A **single-select dropdown** in Column 1 with a static list of options. Once an option is selected, it cannot be reselected in other rows.
+2. A **multi-select dropdown** in Column 2 allowing multiple options selection. Users can add a new option directly from the dropdown.
+3. An **Add New Row** button to append rows to the table.
+4. Rows dynamically update based on user inputs.
 
-### `npm run build`
+#### Nice to Have
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Responsive design.
+- Inline editing for rows.
+- Data persistence using localStorage or sessionStorage.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Guidelines to Develop the Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Must Have
 
-### `npm run eject`
+- Follow React best practices for component structure and state management.
+- Maintain clean, readable, and modular code.
+- Ensure alignment with the wireframe design provided.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Nice to Have
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Utilize reusable components where possible.
+- Add appropriate error handling (e.g., validations for dropdown selections).
+- Optimize performance for large tables.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Submission Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Must Have
 
-## Learn More
+1. Host the application on Netlify: [Deployment Link](https://akhildynamic.netlify.app/).
+2. Provide the source code in a GitHub repository: [GitHub Repository](https://github.com/akhilbhumireddy/DynamicTable.git).
+3. Ensure the repository includes:
+   - A descriptive `README.md`.
+   - Necessary comments within the code.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Nice to Have
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Include a `CHANGELOG.md` for tracking updates.
+- Add unit tests to critical components.
 
-### Code Splitting
+## Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Design Files
 
-### Analyzing the Bundle Size
+Refer to the wireframes provided in the assignment description.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### APIs
 
-### Making a Progressive Web App
+No backend or external APIs are required for this assignment. Use hardcoded data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Third-party Packages
 
-### Advanced Configuration
+- You may use any third-party library for dropdowns, such as `react-select` or `downshift`.
+- Optionally use utility libraries like `classnames` for conditional styling.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## How to Run the Project
 
-### Deployment
+1. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```bash
+   git clone https://github.com/akhilbhumireddy/DynamicTable.git
+   ```
 
-### `npm run build` fails to minify
+2. Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   cd DynamicTable
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open the application in your browser:
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## Evaluation Criteria
+
+1. **Functionality**: The table must meet all the described features.
+2. **Code Quality**: Organized, readable, and adhering to React best practices.
+3. **UI/UX**: The table must closely follow the provided wireframe.
+4. **Bonus Features**: Any enhancements must be listed in the `README.md` or submission email.
+
+---
