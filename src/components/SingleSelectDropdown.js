@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "../ui/button";
-import { cn } from "../lib/utils";
+import { cn } from "../libs/utils";
 
 export default function SingleSelectDropdown({
   options,
